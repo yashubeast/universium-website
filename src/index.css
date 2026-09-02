@@ -1,0 +1,34 @@
+:root {
+  /* background colors */
+  --bg: #0b0b0c;
+  --bg-2: #111113;
+  --bg-3: #16171d;
+
+  /* text colors */
+  --text-ink: #f3f1e9;
+  --text-muted: #8b887e;
+  --text-faint: #58564e;
+
+  /* accents colors */
+  --accent: #a855f7;
+  --accent-deep: #9333ea;
+  --accent-coral: #ff5b35;
+
+  /* line colors */
+  --line: rgba(243, 241, 233, 0.13);
+  --line-2: rgba(243, 241, 233, 0.26);
+}
+
+/* * { */
+/* } */
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text-ink);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}

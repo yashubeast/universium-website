@@ -1,0 +1,82 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+
+.navbar-inner {
+  max-width: 1600px;
+  margin-inline: auto;
+  padding: 20px clamp(20px, 4.5vw, 72px);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+  color: var(--text-ink);
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 26px;
+  margin-left: auto; /* TODO: make the nav-links be in center, maybe */
+}
+
+.navbar-link {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.2s;
+}
+
+.navbar-link:hover {
+  color: var(--text-ink);
+}
+
+.navbar-link.is-active {
+  color: var(--accent);
+}
+
+.navbar-toggle {
+  display: none;
+  margin-left: auto;
+  background: none;
+  border: 1px solid var(--line-2);
+  color: var(--ink);
+  padding: 8px 14px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+@media (max-width: 760px) {
+  .navbar-links {
+    display: none;
+  }
+
+  .navbar-links.is-open {
+    display: flex;
+    position: fixed;
+    inset: 68px 0 auto 0;
+    flex-direction: column;
+    gap: 0;
+    background: var(--bg);
+    padding: 8px clamp(20px, 4.5vw, 72px) 16px;
+  }
+
+  .navbar-links.is-open .navbar-link {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 16px;
+  }
+
+  .navbar-toggle {
+    display: inline-block;
+  }
+}
