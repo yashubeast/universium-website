@@ -46,7 +46,7 @@ function Home() {
       </div>
       </section>
 
-      <section className="home-section home-idea section-3">
+      <section className="home-section home-idea">
       <div className="home-section-inner">
         <h2>
           Earn by<br />
@@ -97,7 +97,7 @@ function Home() {
       </div>
       </section>
       
-      <section className="home-section home-final section-3">
+      <section className="home-section home-final">
       <div className="home-section-inner">
         <h2>
           Build worlds<br />

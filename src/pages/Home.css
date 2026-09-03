@@ -11,9 +11,6 @@
 .home-section.section-2 {
   background: var(--bg-2);
 }
-.home-section.section-3 {
-  background: var(--bg-3);
-}
 
 /* hero section */
 
@@ -77,9 +74,12 @@
   text-decoration: none;
 }
 
+.home-equity h2 {
+  border-top: 1px solid var(--accent-equity);
+}
 .home-equity h2 span {
   /* TODO: maybe give equity title its own color ? green, might break the color theme of the website tho */
-  color: var(--accent)
+  color: var(--accent-equity)
 }
 .equity-keywords {
   margin-top: 120px;
@@ -91,7 +91,6 @@
   line-height: 1.8;
 }
 .equity-keywords a {
-  display: inline-block;
   text-decoration: none;
-  color: var(--accent);
+  color: var(--accent-equity);
 }
