@@ -5,6 +5,7 @@ function Home() {
     <main className="home-page">
 
       <section className="home-section home-hero">
+      <div className="home-section-inner">
         <h1>
           Building<br />
           <span>digital worlds</span>
@@ -17,9 +18,11 @@ function Home() {
             next generation of internet-native participation.
           </p>
         </div>
+      </div>
       </section>
 
-      <section className="home-section home-equity">
+      <section className="home-section home-equity section-2">
+      <div className="home-section-inner">
         <h2>
           Powered by<br />
           <span>Equity</span>
@@ -39,9 +42,11 @@ function Home() {
           </p>
           <a href="/equity">Explore Equity →</a>
         </div>
+      </div>
       </section>
 
-      <section className="home-section home-idea">
+      <section className="home-section home-idea section-3">
+      <div className="home-section-inner">
         <h2>
           Earn by<br />
           <span>participating</span>
@@ -53,6 +58,7 @@ function Home() {
             from communication and community activity to gameplay,
             creation, events, and other contributions.
           </p>
+          <br />
           <p>
             Today, that can mean interacting in Discord and using
             what you earn in community auctions.
@@ -66,9 +72,11 @@ function Home() {
             Earn. Spend. Own.
           </p>
         </div>
+      </div>
       </section>
 
-      <section className="home-section">
+      <section className="home-section section-2">
+      <div className="home-section-inner">
         <h2>
           One economy<br />
           <span>many worlds</span>
@@ -79,14 +87,17 @@ function Home() {
           <p>
           Your participation shouldn't have to stay trapped inside one platform.
           </p>
+          <br />
           <p>
             Earn in one place. Spend in another. Equity connects participation
             across supported communities, games, and digital worlds.
           </p>
         </div>
+      </div>
       </section>
       
-      <section className="home-section home-final">
+      <section className="home-section home-final section-3">
+      <div className="home-section-inner">
         <h2>
           Build worlds<br />
           <span>that remember</span>
@@ -111,6 +122,7 @@ function Home() {
           <br /><br />
           <a href="https://discord.gg/universium" target="_blank" rel="noopener noreferrer">Join Discord →</a>
         </div>
+      </div>
       </section>
 
       {/* NOTE: add footer */}
