@@ -1,0 +1,83 @@
+/* shared content */
+.home-section {
+  max-width: 1400px;
+  margin: 240px auto 240px;
+}
+
+/* hero section */
+
+.home-hero {
+  margin-top: 300px;
+}
+.home-hero h1 {
+  max-width: 1000px;
+
+  font-size: clamp(64px, 9vw, 150px);
+  font-weight: 500;
+  line-height: 0.88;
+  letter-spacing: -0.055em;
+}
+.home-hero h1 span {
+  color: var(--accent)
+}
+
+.home-hero-bottom {
+  border-top: 1px solid var(--line);
+}
+.home-hero-bottom p {
+  margin: 24px 6px 0;
+
+  color: var(--text-muted);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* TODO: add background color variation to each section, use 2 classes */
+
+/* shared content */
+.home-section h2 {
+  padding-top: 100px;
+  border-top: 1px solid var(--line);
+
+  font-size: clamp(52px, 7vw, 110px);
+  font-weight: 500;
+  line-height: 0.92;
+  letter-spacing: -0.05em;
+}
+.home-section h2 span {
+  color: var(--text-muted);
+}
+.section-content {
+  max-width: 620px;
+  margin: 70px 0 0 6px;
+}
+.section-content p {
+  color: var(--text-muted);
+  font-size: 18px;
+  line-height: 1.6;
+}
+.section-content a {
+  /* TODO: visual feedback when hovering over any link in the website maybe ? */
+  /* TODO: maybe also move this into index.css so that every link uses the same shit */
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.home-equity h2 span {
+  /* TODO: maybe give equity title its own color ? green, might break the color theme of the website tho */
+  color: var(--accent)
+}
+.equity-keywords {
+  margin-top: 120px;
+  text-align: center;
+  width: 100%;
+}
+.equity-keywords p {
+  font-size: 32px;
+  line-height: 1.8;
+}
+.equity-keywords a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--accent);
+}
