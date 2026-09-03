@@ -40,6 +40,7 @@ function Home() {
           <p>
             Talk. Play. Build. Compete.
           </p>
+          <br />
           <a href="/equity">Explore Equity →</a>
         </div>
       </div>
