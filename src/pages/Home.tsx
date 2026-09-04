@@ -46,37 +46,7 @@ function Home() {
       </div>
       </section>
 
-      <section className="home-section home-idea">
-      <div className="home-section-inner">
-        <h2>
-          Earn by<br />
-          <span>participating</span>
-        </h2>
-
-        <div className="section-content">
-          <p>
-            Equity is earned through meaning participation —
-            from communication and community activity to gameplay,
-            creation, events, and other contributions.
-          </p>
-          <br />
-          <p>
-            Today, that can mean interacting in Discord and using
-            what you earn in community auctions.
-            Tomorrow, it can extend into games, events,
-            and other digital environments.
-          </p>
-        </div>
-
-        <div className="equity-keywords">
-          <p>
-            Earn. Spend. Own.
-          </p>
-        </div>
-      </div>
-      </section>
-
-      <section className="home-section section-2">
+      <section className="home-section">
       <div className="home-section-inner">
         <h2>
           One economy<br />
@@ -96,7 +66,30 @@ function Home() {
         </div>
       </div>
       </section>
-      
+
+      <section className="home-section home-idea section-2">
+      <div className="home-section-inner">
+        <h2>
+          Earn by<br />
+          <span>participating</span>
+        </h2>
+
+        <div className="section-content">
+          <p>
+            Equity is earned through meaning participation —
+            from communication and community activity to gameplay,
+            creation, events, and other contributions.
+          </p>
+        </div>
+
+        <div className="equity-keywords">
+          <p>
+            Earn. Spend. Own.
+          </p>
+        </div>
+      </div>
+      </section>
+
       <section className="home-section home-final">
       <div className="home-section-inner">
         <h2>
