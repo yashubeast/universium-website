@@ -68,6 +68,11 @@ function Home() {
       </section>
 
       <section className="home-section home-idea section-2">
+      <div className="home-idea-bg" aria-hidden="true">
+        <span>Earn.</span>
+        <span>Spend.</span>
+        <span>Own.</span>
+      </div>
       <div className="home-section-inner">
         <h2>
           Earn by<br />
@@ -79,12 +84,6 @@ function Home() {
             Equity is earned through meaning participation —
             from communication and community activity to gameplay,
             creation, events, and other contributions.
-          </p>
-        </div>
-
-        <div className="equity-keywords">
-          <p>
-            Earn. Spend. Own.
           </p>
         </div>
       </div>
