@@ -33,14 +33,25 @@ function Navbar() {
           ))}
         </nav>
 
-        <button
-          className="navbar-toggle"
-          aria-label="toggle menu"
-          aria-expanded={open}
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? 'Close' : 'Menu'}
-        </button>
+        <div className="navbar-right">
+          <a
+            href="https://discord.gg/universium"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="navbar-discord"
+            aria-label="Join Discord"
+          ><img src="/discord.svg" alt="Discord" />
+          </a>
+
+          <button
+            className="navbar-toggle"
+            aria-label="toggle menu"
+            aria-expanded={open}
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? 'Close' : 'Menu'}
+          </button>
+        </div>
       </div>
     </header>
   )
