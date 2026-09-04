@@ -47,12 +47,12 @@ function Home() {
       </section>
 
       <section className="home-section home-worlds">
-      <div className="home-worlds-images" aria-hidden="true">
-        <div className="world-frame"><img src="/minecraft-frame.png" alt="" /></div>
-        <div className="world-frame"><img src="/discord-frame.png" alt="" /></div>
-        <div className="world-frame"><img src="/upcoming-frame.png" alt="" /></div>
-      </div>
       <div className="home-section-inner">
+        <div className="home-worlds-images" aria-hidden="true">
+          <div className="world-frame"><img src="/minecraft-frame.png" alt="" /></div>
+          <div className="world-frame"><img src="/discord-frame.png" alt="" /></div>
+          <div className="world-frame"><img src="/upcoming-frame.png" alt="" /></div>
+        </div>
         <h2>
           One economy<br />
           <span>many worlds</span>
@@ -73,12 +73,12 @@ function Home() {
       </section>
 
       <section className="home-section home-idea section-2">
-      <div className="home-idea-bg" aria-hidden="true">
-        <span>Earn.</span>
-        <span>Spend.</span>
-        <span>Own.</span>
-      </div>
       <div className="home-section-inner">
+        <div className="home-idea-bg" aria-hidden="true">
+          <span>Earn.</span>
+          <span>Spend.</span>
+          <span>Own.</span>
+        </div>
         <h2>
           Earn by<br />
           <span>participating</span>
