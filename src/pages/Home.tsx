@@ -58,7 +58,6 @@ function Home() {
           <span>many worlds</span>
         </h2>
 
-        {/* TODO: show graphic or text, annotating games connecting to equity, like node chart of games connected to equity icon */}
         <div className="section-content">
           <p>
           Your participation shouldn't have to stay trapped inside one platform.
