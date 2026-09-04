@@ -202,4 +202,45 @@
   .home-worlds-images {
     display: none;
   }
+  .manifesto {
+    position: relative;
+    top: auto;
+    right: auto;
+    transform: none;
+    width: 100%;
+    margin-top: 100%;
+  }
+}
+
+/* manifesto thing at the bottom but above footer */
+.home-final {
+  position: relative;
+}
+.home-final .home-section-inner {
+  position: relative;
+}
+.manifesto {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 30%;
+  padding-right: 10%;
+  transform: translateY(-50%);
+}
+.manifesto-line {
+  border-top: 1px solid var(--line-2);
+  padding: 24px 0;
+}
+.manifesto-line:last-child {
+  border-bottom: 1px solid var(--line-2);
+}
+.manifesto-line p {
+  margin: 0;
+  padding-left: 32px;
+  font-size: clamp(20px, 2.2vw, 24px);
+  line-height: 1.2;
+  color: var(--text-muted);
+}
+.manifesto-line span {
+  color: var(--accent);
 }

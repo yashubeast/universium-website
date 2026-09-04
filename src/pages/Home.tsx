@@ -108,17 +108,25 @@ function Home() {
             <br /><br />
             Equity is built around a different idea:<br />
             digital participation can become something durable.
-            <br /><br />
-            {/* TODO: move these to the right end */}
-            Digital times should matter.<br />
-            Digital efforts should be legible.<br />
-            Digital ownership should be real.
           </p>
+
           <br /><br />
           {/* TODO: turn these into proper buttons */}
           <a href="/about">More about Universium →</a>
           <br /><br />
           <a href="https://discord.gg/universium" target="_blank" rel="noopener noreferrer">Join Discord →</a>
+        </div>
+
+        <div className="manifesto">
+          <div className="manifesto-line">
+            <p>Digital times should <span>matter</span>.</p>
+          </div>
+          <div className="manifesto-line">
+            <p>Digital efforts should be <span>legible</span>.</p>
+          </div>
+          <div className="manifesto-line">
+            <p>Digital ownership should be <span>real</span>.</p>
+          </div>
         </div>
       </div>
       </section>
