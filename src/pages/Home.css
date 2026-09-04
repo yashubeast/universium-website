@@ -70,12 +70,6 @@
   font-size: 18px;
   line-height: 1.6;
 }
-.section-content a {
-  /* TODO: visual feedback when hovering over any link in the website maybe ? */
-  /* TODO: maybe also move this into index.css so that every link uses the same shit */
-  color: var(--accent);
-  text-decoration: none;
-}
 
 .home-equity h2 {
   border-top: 1px solid var(--accent-equity);

@@ -20,9 +20,6 @@
   --line-2: rgba(243, 241, 233, 0.26);
 }
 
-/* * { */
-/* } */
-
 body {
   margin: 0;
   background: var(--bg);
@@ -32,4 +29,43 @@ body {
 ::selection {
   background: var(--accent);
   color: var(--bg);
+}
+
+/* global classes */
+/* global classes are just shared classes which are used throughout multiple pages, thus they're here */
+
+.global-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border: 1px solid var(--line-2);
+  color: var(--text-ink);
+  background: transparent;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s, color 0.2s;
+}
+.global-button:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+/* primary */
+.global-button-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+}
+.global-button-primary:hover {
+  background: var(--accent-deep);
+  border-color: var(--accent-deep);
+  color: var(--bg);
+}
+/* row */
+.global-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }

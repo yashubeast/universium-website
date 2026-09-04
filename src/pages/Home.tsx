@@ -109,11 +109,13 @@ function Home() {
             digital participation can become something durable.
           </p>
 
-          <br /><br />
-          {/* TODO: turn these into proper buttons */}
-          <a href="/about">More about Universium →</a>
-          <br /><br />
-          <a href="https://discord.gg/universium" target="_blank" rel="noopener noreferrer">Join Discord →</a>
+          <div className="global-button-row" style={{ marginTop: 32 }}>
+            <a href="/about" className="global-button global-button-primary"
+            >More about Universium</a>
+            <a href="https://discord.gg/universium" target="_blank"
+              rel="noopener noreferrer" className="global-button"
+            >Join Discord →</a>
+          </div>
         </div>
 
         <div className="manifesto">
