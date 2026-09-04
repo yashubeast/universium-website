@@ -46,7 +46,12 @@ function Home() {
       </div>
       </section>
 
-      <section className="home-section">
+      <section className="home-section home-worlds">
+      <div className="home-worlds-images" aria-hidden="true">
+        <div className="world-frame"><img src="/minecraft-frame.png" alt="" /></div>
+        <div className="world-frame"><img src="/discord-frame.png" alt="" /></div>
+        <div className="world-frame"><img src="/upcoming-frame.png" alt="" /></div>
+      </div>
       <div className="home-section-inner">
         <h2>
           One economy<br />
