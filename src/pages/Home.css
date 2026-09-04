@@ -9,6 +9,7 @@
 .home-section-inner {
   max-width: 1400px;
   margin: 0 auto;
+  padding-inline: clamp(20px, 4.5vw, 72px);
 }
 .home-section.section-2 {
   background: var(--bg-2);
@@ -186,7 +187,10 @@
 .world-frame:nth-child(3) {
   transform: translateY(24px);
 }
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
+  .home-idea-bg {
+    display: none;
+  }
   .home-worlds-images {
     display: none;
   }
