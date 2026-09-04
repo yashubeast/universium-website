@@ -23,6 +23,7 @@ function Home() {
 
       <section className="home-section home-equity section-2">
       <div className="home-section-inner">
+        <img src="/equity-animated.svg" alt="" className="equity-graphic" aria-hidden="true" />
         <h2>
           Powered by<br />
           <span>Equity</span>
