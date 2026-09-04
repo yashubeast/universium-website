@@ -1,0 +1,8 @@
+services:
+
+  universium-website:
+    build: .
+    container_name: universium-website
+    ports:
+      - "5173:80"
+    restart: unless-stopped
