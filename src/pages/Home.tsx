@@ -8,14 +8,14 @@ function Home() {
       <div className="home-section-inner">
         <h1>
           Building<br />
-          <span>digital worlds</span>
+          <span>Universium</span>
         </h1>
 
         <div className="home-hero-bottom">
           <p>
-            Universium is building digital worlds with a shared economy,<br />
-            connecting game servers, online communities, for the<br />
-            next generation of internet-native participation.
+          We build digital worlds that the players inhabit and enrich with lore.<br />
+          We’ve developed our own economic system to further expand the possibilities available to the user base,<br />
+          and we host online communities centered around our activities.
           </p>
         </div>
       </div>
@@ -31,9 +31,10 @@ function Home() {
 
         <div className="section-content">
           <p>
-            Equity is a cross-platform economy layer for digital worlds.<br />
-            It turns participation into something that can be<br />
-            earned, spent, traded, and owned.
+          Our custom-built economic system enables basic functions such as trade, auctions<br />
+          and shops, while also going beyond the conventional to empower its user base.<br />
+          Money should give you wings, not weigh you down.<br />
+          Join and discover for yourself what it can do!
           </p>
         </div>
 
@@ -42,7 +43,8 @@ function Home() {
             Talk. Play. Build. Compete.
           </p>
           <br />
-          <a href="/equity">Explore Equity →</a>
+
+          <a href="/equity" className="global-button">Explore Equity</a>
         </div>
       </div>
       </section>
@@ -52,7 +54,8 @@ function Home() {
         <div className="home-worlds-images" aria-hidden="true">
           <div className="world-frame"><img src="/minecraft-frame.png" alt="" /></div>
           <div className="world-frame"><img src="/discord-frame.png" alt="" /></div>
-          <div className="world-frame"><img src="/upcoming-frame.png" alt="" /></div>
+          <div className="world-frame"><img src="/reddit-frame.png" alt="" /></div>
+          <div className="world-frame"><img src="/tiktok-frame.png" alt="" /></div>
         </div>
         <h2>
           One economy<br />
@@ -86,9 +89,9 @@ function Home() {
 
         <div className="section-content">
           <p>
-            Equity is earned through meaning participation —
-            from communication and community activity to gameplay,
-            creation, events, and other contributions.
+          Equity is earned simply through meaningful participation,<br />
+          from communication and community activity to gameplay,<br />
+          creation, events, and other contributions.
           </p>
         </div>
       </div>
@@ -97,17 +100,17 @@ function Home() {
       <section className="home-section home-final">
       <div className="home-section-inner">
         <h2>
-          Build worlds<br />
-          <span>that remember</span>
+          Together we build<br />
+          <span>worlds that remember</span>
         </h2>
 
         <div className="section-content">
           <p>
             Digital worlds reset. Servers close. Communities move.<br />
-            Years of participation can disappear with them.
+            Years of your participation can disappear with them.
             <br /><br />
             Equity is built around a different idea:<br />
-            digital participation can become something durable.
+            digital participation can become something lasting, perhaps even permanent.
           </p>
 
           <div className="global-button-row" style={{ marginTop: 32 }}>
@@ -115,16 +118,16 @@ function Home() {
             >More about Universium</a>
             <a href="https://discord.gg/universium" target="_blank"
               rel="noopener noreferrer" className="global-button"
-            >Join Discord →</a>
+            >Join Discord</a>
           </div>
         </div>
 
         <div className="manifesto">
           <div className="manifesto-line">
-            <p>Digital times should <span>matter</span>.</p>
+            <p>Digital times investment should <span>matter</span>.</p>
           </div>
           <div className="manifesto-line">
-            <p>Digital efforts should be <span>legible</span>.</p>
+            <p>Digital efforts should be <span>preserved</span>.</p>
           </div>
           <div className="manifesto-line">
             <p>Digital ownership should be <span>real</span>.</p>

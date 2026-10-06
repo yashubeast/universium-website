@@ -173,7 +173,7 @@
   top: 0px;
   right: 0px;
   bottom: auto;
-  width: 25%;
+  width: 35%;
   height: 100%;
 
   display: flex;
@@ -234,18 +234,18 @@
 }
 .manifesto {
   position: absolute;
-  top: 50%;
+  top: 75%;
   right: 0;
   width: 30%;
   padding-right: 10%;
   transform: translateY(-50%);
 }
 .manifesto-line {
-  border-top: 1px solid var(--line-2);
+  border-bottom: 1px solid var(--line-2);
   padding: 24px 0;
 }
 .manifesto-line:last-child {
-  border-bottom: 1px solid var(--line-2);
+  /* border-bottom: 1px solid var(--line-2); */
 }
 .manifesto-line p {
   margin: 0;
