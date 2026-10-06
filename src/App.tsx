@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar.tsx'
+import ScrollToTop from './components/ScrollToTop.tsx'
 import Home from './pages/Home.tsx'
 import About from './pages/About.tsx'
 import Equity from './pages/Equity.tsx'
@@ -7,6 +8,7 @@ import Equity from './pages/Equity.tsx'
 function App() {
   return (
     <>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path = "/" element = {<Home />} />
