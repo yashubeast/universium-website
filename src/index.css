@@ -69,3 +69,9 @@ body {
   flex-wrap: wrap;
   gap: 16px;
 }
+
+/* other shit (overlaps global shit) */
+
+.color-accent-equity {
+  color: var(--accent-equity);
+}
