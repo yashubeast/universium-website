@@ -17,11 +17,19 @@
 }
 
 .navbar-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 700;
   font-size: 24px;
   letter-spacing: -0.02em;
   color: var(--text-ink);
   text-decoration: none;
+}
+.navbar-logo-img {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 .navbar-links {
@@ -83,6 +91,7 @@
   cursor: pointer;
 }
 
+/* TODO: the text is black or something */
 @media (max-width: 760px) {
   .navbar-links {
     display: none;

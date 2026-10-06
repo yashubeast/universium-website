@@ -14,6 +14,7 @@ function Navbar() {
     <header className="navbar">
       <div className="navbar-inner">
         <NavLink to="/" className="navbar-logo" onClick={() => setOpen(false)}>
+          <img src='/universium-animated-96x96.gif' alt='' className='navbar-logo-img' />
           Universium
         </NavLink>
 
