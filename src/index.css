@@ -75,3 +75,7 @@ body {
 .color-accent-equity {
   color: var(--accent-equity);
 }
+
+.color-accent {
+  color: var(--accent);
+}

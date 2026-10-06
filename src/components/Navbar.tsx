@@ -7,6 +7,12 @@ const links = [
   { to: '/about', label: 'About' },
 ]
 
+const moreLinks = [
+  { to: '/equity', label: 'Equity' },
+  { to: '/manifesto', label: 'Manifesto' },
+  { to: '/whitepaper', label: 'Whitepaper' },
+]
+
 function Navbar() {
   const [open, setOpen] = useState(false)
 
@@ -32,6 +38,22 @@ function Navbar() {
               {link.label}
             </NavLink>
           ))}
+
+          <div className="navbar-more">
+            <button className="navbar-link navbar-more-button">More<span>⌄</span></button>
+
+            <div className="navbar-dropdown">
+              {moreLinks.map((link) => (
+                <NavLink
+                  key={link.to}
+                  to={link.to}
+                  onClick={() => setOpen(false)}
+                  className={({ isActive }) => `navbar-dropdown-link ${isActive ? 'is-active' : ''}` }
+                >{link.label}
+                </NavLink>
+              ))}
+            </div>
+          </div>
         </nav>
 
         <div className="navbar-right">
