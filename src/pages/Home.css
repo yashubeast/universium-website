@@ -215,6 +215,9 @@
   .home-worlds-images {
     display: none;
   }
+  .equity-graphic {
+    display: none;
+  }
   .manifesto {
     position: relative;
     top: auto;
@@ -236,7 +239,7 @@
   position: absolute;
   top: 75%;
   right: 0;
-  width: 30%;
+  width: 40%;
   padding-right: 10%;
   transform: translateY(-50%);
 }
