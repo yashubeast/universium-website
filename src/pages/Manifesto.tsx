@@ -90,32 +90,7 @@ function Manifesto() {
             Equity is built to tolerate volatility without becoming arbitrary.
           </p>
 
-          <h2>1.7 The Three-Layer Economy</h2>
-          <p>Equity operates through three layers:</p>
-          <ul>
-            <li>
-              <strong>Equity Credit (earned / in-system):</strong> Fast-moving
-              fuel for fees, access, crafting rights, auctions, and day-to-day
-              play.
-            </li>
-            <li>
-              <strong>Donation Tokens (fiat entry):</strong> A direct fiat rail
-              for purchasing participation surfaces, premium access, and
-              ecosystem services.
-            </li>
-            <li>
-              <strong>Crypto Currency (on-chain):</strong> The ownership layer
-              for permanent assets—real estate, power NFTs, relics, and
-              portable identity. It may be earned inside the system or acquired
-              externally.
-            </li>
-          </ul>
-          <p>
-            These layers exist to separate velocity from permanence, play from
-            ownership, and participation from settlement.
-          </p>
-
-          <h2>1.8 Ownership Without Illusion</h2>
+          <h2>1.7 Ownership Without Illusion</h2>
           <p>
             Equity supports permanent assets because permanence is how worlds
             remember. But permanence does not mean entitlement. Ownership does
@@ -124,7 +99,7 @@ function Manifesto() {
           </p>
           <p>Equity protects portability—not comfort.</p>
 
-          <h2>1.9 DPP: Measurement, Not Myth</h2>
+          <h2>1.8 DPP: Measurement, Not Myth</h2>
           <p>
             Dynamic Proof of Participation (DPP) is Equity’s signal engine. It
             measures coordination across platforms, discounts isolated farming,
@@ -136,7 +111,7 @@ function Manifesto() {
             being created through real interaction.
           </p>
 
-          <h2>1.10 Integrity Over Convenience</h2>
+          <h2>1.9 Integrity Over Convenience</h2>
           <p>
             If Equity becomes easy to fake, it becomes worthless. If
             manipulation becomes cheaper than participation, the economy
@@ -146,7 +121,7 @@ function Manifesto() {
           </p>
           <p>This system is designed to survive adversarial use.</p>
 
-          <h2>1.11 Who Equity Is For</h2>
+          <h2>1.10 Who Equity Is For</h2>
           <p>
             Equity is for builders, players, creators, and communities that
             want worlds with real stakes, real scarcity, and real memory. It is
@@ -155,7 +130,7 @@ function Manifesto() {
           </p>
           <p>Equity offers opportunity under constraint—not safety from consequence.</p>
 
-          <h2>1.12 Closing Declaration</h2>
+          <h2>1.11 Closing Declaration</h2>
           <p>
             Equity makes digital time matter by making digital worlds able to remember.
             It does this through enforced scarcity, honest markets, durable

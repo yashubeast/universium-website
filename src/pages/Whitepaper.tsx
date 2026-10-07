@@ -76,13 +76,7 @@ function Whitepaper() {
             coordination, demand, and market pressure.
           </p>
 
-          <h2>1.3 Currency & Credit Types</h2>
-          <p>
-            Equity uses three primary economic layers, each with a distinct
-            role and boundary.
-          </p>
-
-          <h3>Equity Credit (EC) — Earned / Off-Chain Fuel</h3>
+          <h2>1.3 Equity Credit (EC) — Earned / Off-Chain Fuel</h2>
           <p>
             Equity Credit enters through participation, gameplay, viewership,
             contribution, research, moderation, creation, coordination, and
@@ -101,51 +95,6 @@ function Whitepaper() {
           <p>
             EC is not automatically wealth. It becomes meaningful only when
             used within scarcity, competition, utility, or market demand.
-          </p>
-
-          <h3>Donation Tokens (DT) — Fiat Entry / Platform Credits</h3>
-          <p>
-            Donation Tokens enter through fiat purchase or other Company-approved
-            payment flows. They are used for defined platform functions,
-            including premium access, event tickets, limited surfaces,
-            sponsorship mechanisms, visibility, acceleration, and ecosystem
-            services.
-          </p>
-          <p>
-            DT provide a fiat revenue rail for the platform and support system
-            development, infrastructure, operations, and ecosystem activity.
-          </p>
-          <p>
-            DT do not represent ownership in the Company, profit rights, revenue
-            claims, guaranteed outcomes, or a general right of fiat redemption.
-          </p>
-
-          <h3>Crypto Currency (CC) — On-Chain Ownership Layer</h3>
-          <p>
-            The crypto layer enables ownership, transferability, composability,
-            and portability across supported environments.
-          </p>
-          <p>
-            CC may be used for permanent digital assets, real estate deeds,
-            power NFTs, relics, portable identity, governance primitives where
-            enabled, and other on-chain or wallet-recognized assets.
-          </p>
-          <p>
-            CC may be earned within the system, acquired through approved
-            mechanisms, transferred to external wallets, or acquired externally
-            where legally and technically available.
-          </p>
-          <p>
-            Crypto assets may be volatile, illiquid, restricted, unsupported,
-            or unavailable in certain jurisdictions. Equity does not guarantee
-            value, liquidity, exchange listing, resale price, fiat conversion,
-            appreciation, or continuous utility.
-          </p>
-          <p>
-            No currency layer is interchangeable by default. Any conversion,
-            bridge, or interaction between EC, DT, CC, or other asset types must
-            be explicit, rate-limited where appropriate, logged, and gated by
-            security, economic, platform, and compliance requirements.
           </p>
 
           <h2>1.4 Participation, Ownership, and Economic Value</h2>
@@ -222,87 +171,7 @@ function Whitepaper() {
             false value.
           </p>
 
-          <h2>1.6 Donation Tokens: Fiat Entry & Platform Sustainability</h2>
-          <p>
-            Donation Tokens are the primary fiat entry mechanism for defined
-            platform uses.
-          </p>
-          <p>
-            They support platform sustainability by funding infrastructure,
-            development, security, operations, events, creator tools, partner
-            integrations, and premium surfaces.
-          </p>
-          <p>DT are designed for:</p>
-          <ul>
-            <li>time-bound access;</li>
-            <li>event tickets;</li>
-            <li>premium surfaces;</li>
-            <li>visibility placements;</li>
-            <li>sponsorship tooling;</li>
-            <li>acceleration mechanisms;</li>
-            <li>convenience features;</li>
-            <li>ecosystem services.</li>
-          </ul>
-          <p>
-            DT do not grant legal ownership in the Company, profit share,
-            governance rights, revenue claims, guaranteed outcomes, or
-            guaranteed market advantage.
-          </p>
-          <p>DT do not create a general right of fiat redemption.</p>
-          <p>
-            Equity may support crypto assets that can be owned, transferred, or
-            traded outside the platform. Such crypto assets are governed by
-            separate asset rules, marketplace rules, smart contract terms,
-            jurisdictional restrictions, and applicable law. The existence of
-            transferable crypto assets does not make DT generally redeemable for
-            fiat or create a guaranteed cash-out right.
-          </p>
-          <p>
-            Any interaction between DT, EC, crypto assets, or external value
-            pathways must be explicit, logged, gated, and subject to compliance
-            and security controls.
-          </p>
-
-          <h2>1.7 Crypto Currency: Ownership Layer and Portability</h2>
-          <p>
-            The crypto layer exists to make digital time matter beyond a single
-            platform.
-          </p>
-          <p>It enables:</p>
-          <ul>
-            <li>permanent ownership of supported assets;</li>
-            <li>wallet-based possession;</li>
-            <li>open market trade where supported;</li>
-            <li>composability with wallets and external ecosystems;</li>
-            <li>portability of identity and inventory;</li>
-            <li>recognition of digital property across supported environments.</li>
-          </ul>
-          <p>The system distinguishes between:</p>
-          <ul>
-            <li>utility assets — NFTs, deeds, access keys, powers, or items used in-world;</li>
-            <li>real estate assets — districts, plots, surfaces, portals, or territory rights;</li>
-            <li>collectibles and relics — scarce historical artifacts linked to seasons, events, or milestones;</li>
-            <li>identity assets — records, badges, credentials, or wallet-linked history;</li>
-            <li>governance primitives — limited tools or rights used for governance where enabled.</li>
-          </ul>
-          <p>
-            Crypto assets may be transferable, tradable, rent-enabled,
-            lend-enabled, or composable depending on asset type and system
-            rules.
-          </p>
-          <p>
-            Ownership does not guarantee utility. Utility may depend on platform
-            support, server rules, fees, access conditions, balance constraints,
-            contestability, season rules, or legal availability.
-          </p>
-          <p>
-            Crypto assets may be subject to market volatility, technical risk,
-            regulatory constraints, smart contract risk, wallet compromise, tax
-            obligations, and jurisdictional restrictions. Participants assume
-            associated risk.
-          </p>
-
-          <h2>1.8 Digital Assets and Asset Utility</h2>
+          <h2>1.6 Digital Assets and Asset Utility</h2>
           <p>
             Equity supports digital assets that may exist off-chain, on-chain,
             or in hybrid form.
@@ -346,7 +215,7 @@ function Whitepaper() {
             liquid, remain usable, or remain supported indefinitely.
           </p>
 
-          <h2>1.9 Markets, Pricing, and Competition</h2>
+          <h2>1.7 Markets, Pricing, and Competition</h2>
           <p>Equity uses markets to allocate scarcity.</p>
           <p>Market mechanisms may include:</p>
           <ul>
@@ -374,7 +243,7 @@ function Whitepaper() {
             demand, asset appreciation, or liquidity.
           </p>
 
-          <h2>1.10 User Entrepreneurship</h2>
+          <h2>1.8 User Entrepreneurship</h2>
           <p>
             Equity allows users to create economic activity inside and around
             the system.
@@ -406,33 +275,7 @@ function Whitepaper() {
             enforcement.
           </p>
 
-          <h2>1.11 DPP: Signal & Correlation Engine</h2>
-          <p>
-            Dynamic Proof of Participation (DPP) is the signal engine that
-            measures coordination across supported platforms.
-          </p>
-          <p>DPP helps:</p>
-          <ul>
-            <li>weight rewards based on correlated participation;</li>
-            <li>discount isolated or repetitive activity;</li>
-            <li>tune scarcity pressure;</li>
-            <li>adjust congestion fees;</li>
-            <li>identify manipulation patterns;</li>
-            <li>inform market and event parameters;</li>
-            <li>support supply, sinks, or access constraints under stress.</li>
-          </ul>
-          <p>
-            DPP is measurement, not judgment. It does not determine human worth,
-            moral value, social rank, or personal legitimacy. It measures where
-            participation, coordination, scarcity, and market activity appear
-            to form meaningful signal.
-          </p>
-          <p>
-            Some DPP inputs, thresholds, and detection logic may remain private
-            to prevent gaming.
-          </p>
-
-          <h2>1.12 Time, Seasons, and Persistence</h2>
+          <h2>1.9 Time, Seasons, and Persistence</h2>
           <p>
             Equity supports both high-velocity cycles and persistent ownership.
           </p>
@@ -469,7 +312,7 @@ function Whitepaper() {
             access, or permanent dominance.
           </p>
 
-          <h2>1.13 Governance Boundaries</h2>
+          <h2>1.10 Governance Boundaries</h2>
           <p>Governance may be enabled in limited forms.</p>
           <p>Governance may allow participants or asset holders to influence:</p>
           <ul>
@@ -499,7 +342,7 @@ function Whitepaper() {
             of control over the Company or the entire platform.
           </p>
 
-          <h2>1.14 Transparency, Logging, and Auditability</h2>
+          <h2>1.11 Transparency, Logging, and Auditability</h2>
           <p>Equity maintains internal logs for:</p>
           <ul>
             <li>balances;</li>
@@ -531,7 +374,7 @@ function Whitepaper() {
             require exposing the system to manipulation.
           </p>
 
-          <h2>1.15 Abuse, Failure Modes, and Intervention</h2>
+          <h2>1.12 Abuse, Failure Modes, and Intervention</h2>
           <p>Equity assumes adversarial participation.</p>
           <p>The system may face:</p>
           <ul>
@@ -570,7 +413,7 @@ function Whitepaper() {
             loss.
           </p>
 
-          <h2>1.16 Regulated Activity Boundary</h2>
+          <h2>1.13 Regulated Activity Boundary</h2>
           <p>
             Equity does not currently operate gambling, games of chance,
             casino-style mechanics, wagered cash-prize events, direct fiat
@@ -593,70 +436,7 @@ function Whitepaper() {
             technically supported.
           </p>
 
-          <h2>1.17 Compliance and Jurisdictional Controls</h2>
-          <p>
-            Equity operates across platform, payment, crypto, consumer, tax,
-            and data protection environments that may vary by jurisdiction.
-          </p>
-          <p>
-            Certain features may be restricted, delayed, modified, or
-            unavailable depending on:
-          </p>
-          <ul>
-            <li>user location;</li>
-            <li>age;</li>
-            <li>payment processor requirements;</li>
-            <li>crypto-asset rules;</li>
-            <li>marketplace rules;</li>
-            <li>KYC/AML requirements;</li>
-            <li>tax obligations;</li>
-            <li>sanctions restrictions;</li>
-            <li>platform terms;</li>
-            <li>legal review.</li>
-          </ul>
-          <p>
-            The Company may require additional verification, limit access,
-            restrict transfers, disable features, or block participation where
-            required for compliance, safety, fraud prevention, or platform
-            compatibility.
-          </p>
-          <p>
-            Participants are responsible for understanding and complying with
-            laws applicable to their own participation, taxes, wallets,
-            transfers, trades, and asset ownership.
-          </p>
-
-          <h2>1.18 Legal & Risk Disclosure</h2>
-          <p>
-            Equity is a for-profit platform operating a multi-layer economy
-            that may include internal credits, fiat-purchased platform credits,
-            digital assets, crypto assets, market activity, and user-to-user
-            economic behavior.
-          </p>
-          <p>Participants acknowledge that:</p>
-          <ul>
-            <li>participation involves risk;</li>
-            <li>crypto assets may be volatile or illiquid;</li>
-            <li>assets may lose value;</li>
-            <li>assets may lose utility;</li>
-            <li>markets may fail;</li>
-            <li>platforms may change or revoke access;</li>
-            <li>wallets may be compromised;</li>
-            <li>smart contracts may contain vulnerabilities;</li>
-            <li>taxes may apply;</li>
-            <li>legal requirements may vary by jurisdiction;</li>
-            <li>supported features may change.</li>
-          </ul>
-          <p>
-            Nothing in Equity constitutes financial, investment, legal, or tax
-            advice.
-          </p>
-          <p>
-            Nothing guarantees profit, appreciation, liquidity, yield,
-            redemption, continuous access, or continuous utility.
-          </p>
-
-          <h2>1.19 Closing Summary</h2>
+          <h2>1.14 Closing Summary</h2>
           <p>
             Equity is a cross-platform economy and ownership layer built on
             enforced scarcity, markets, signal-based reward issuance, digital
