@@ -6,9 +6,9 @@ dev:
 	npm run dev
 
 build:
-	docker build -t universium-website . --no-cache
+	docker compose build --no-cache
 
 rebuild:
 	docker compose down
-	docker build -t universium-website . --no-cache
+	docker compose build --no-cache
 	docker compose up -d
